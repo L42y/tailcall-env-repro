@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "tailcall start main.graphql"
+  },
+  "dependencies": {
+    "@tailcallhq/tailcall": "^0.131.0"
+  }
+}

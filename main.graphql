@@ -1,0 +1,7 @@
+schema @server @upstream @link(src: "{{.env.GRPC_ENDPOINT}}", type: Grpc) {
+  query: Query
+}
+
+type Query {
+  greet: String! @expr(body: "Hello, World!")
+}
